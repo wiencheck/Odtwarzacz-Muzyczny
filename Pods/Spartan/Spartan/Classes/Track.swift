@@ -25,7 +25,7 @@ public class Track: SimplifiedTrack {
         return Album.root
     }
 
-    public private(set) var album: SimplifiedAlbum!
+//    public private(set) var album: SimplifiedAlbum!
     public private(set) var externalIds: [String: String]!
     public private(set) var popularity: Int!
     

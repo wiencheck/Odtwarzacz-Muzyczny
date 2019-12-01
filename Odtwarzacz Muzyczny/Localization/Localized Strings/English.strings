@@ -1,0 +1,439 @@
+/* 
+  English.strings
+  Plum 2
+
+  Created by Adam Wienconek on 03.06.2018.
+  Copyright © 2018 Adam Wienconek. All rights reserved.
+*/
+
+"songs" = "Songs";
+"artists" = "Artists";
+"albums" = "Albums";
+"playlist" = "Playlist";
+"playlists" = "Playlists";
+"favourites" = "Favourites";
+"album" = "Album";
+"artist" = "Artist";
+"settings" = "Settings";
+
+"unknownArtist" = "Unknown Artist";
+"unknownTitle" = "Unknown Title";
+"unknownAlbum" = "Unknown Album";
+"noLyrics" = "Couldn't find lyrics for this song";
+"options" = "Options";
+"darkMode" = "Dark mode";
+"showRating" = "Show ratings";
+"grid" = "Grid view";
+"pickSongs" = "Add new tracks to the queue.";
+"goToAlbum" = "Jump to album";
+"goToArtist" = "Jump to artist";
+"goToPlaylist" = "Jump to playlist";
+
+// MARK: User communication
+"errorOccurred" = "Error occurred";
+"errorOccurredExpand" = "Show details";
+"areYouSure" = "Are you sure?";
+"miniplayerWelcome" = "Welcome to Plum";
+"miniplayerPick" = "Pick some music to play";
+"yes" = "Yes";
+"no" = "No";
+"cancel" = "Cancel";
+"proceed" = "Proceed";
+"shouldShuffleItems" = "Do you want to shuffle songs?";
+"shouldContinuePlaying" = "Do you want to continue playback in selected playlist?";
+"searchScopeLibrary" = "Your library";
+"searchScopeCurrentScreen" = "Current screen";
+"backButtonTitle" = "Back";
+"expand" = "Show more";
+"compact" = "Show less";
+"noFavouritesMessage" = "You don't have any favourites yet, look for heart shaped '♡' button to add albums, artists and playlists to the collection.";
+"wasAddedToFavourites" = "was added to favourites";
+"wasRemovedFromFavourites" = "was removed from favourites";
+"addedToPlaylist" = "Successfully added to playlist";
+"excludeFromQueue" = "Exclude from queue";
+"willBePlayedNext" = "will be played next";
+"willBePlayedLast" = "will be played last";
+"rootSetAsHome" = "Default";
+"mediaPickerPickItems" = "Add songs to playing queue";
+"nowPlayingFoundArtistMessage" = "A song from this artist is currently playing";
+"nowPlayingFoundContinueOption" = "Continue playback";
+"nowPlayingFoundAlbumMessage" = "A song from this album is currently playing";
+"nowPlayingFoundPlaylistMessage" = "A song from this playlist is currently playing";
+"nowPlayingFoundStartOverOption" = "Start over";
+"endOfQueue" = "End of the queue";
+"markAsRead" = "Mark as read";
+"allSongs" = "All songs";
+"artistImageDownload" = "Download";
+"artistImagePick" = "Get from photos";
+"artistImagePaste" = "Paste";
+"artistImageRemove" = "Remove";
+"addToPlaylist" = "Add to playlist";
+"nowPlayingAddPlaylist" = "Add to playlist";
+"playlistPickerPrompt" = "Add songs to playlist";
+"nowPlayingLyrics" = "Lyrics";
+"nowPlayingRating" = "Rating";
+"playlistDescriptionCreatedBy" = "Created by";
+"loading" = "Loading";
+"playlistSmartDescription" = "Smart playlist";
+"playlistGeniusDescription" = "Genius playlist";
+"rateMenuTitle" = "Rate";
+"search" = "Search";
+"variousArtists" = "Various Artists";
+"delete" = "Delete";
+"clear" = "Clear";
+"spotifyLoggedInMessage" = "Spotify logged in";
+"spotifyLoggedOutMessage" = "Spotify logged out";
+"tracksRemaining" = "tracks more";
+"sourcedPlaylistDescription" = "This playlist contains all saved songs from";
+"restartAppToTakeEffect" = "Restart app for changes to take effect";
+"addSongToPlaylistFirst" = "Add";
+"addSongToPlaylistSecond" = "to playlist";
+
+"emptyViewTitle" = "Nothing to see here";
+"emptyViewMessage" = "If you have added music to your device, but it is not showing, check the settings and refresh library by pulling down in any screen";
+"emptyFavouritesTitle" = "Nothing to see here";
+"emptyFavouritesMessage" = "Look for heart shaped button to add some stuff here";
+"miniplayerEmptyMessage" = "Not Playing";
+"albumSetPrimary" = "Set as primary album";
+
+"favouriteTracksPlaylistTitle" = "Favourite songs";
+"favouriteTracksPlaylistDescription" = "This playlist contains your favourite songs from all available music sources. Rock on!";
+
+"addToFavouritesButtonTitle" = "Add to favourites";
+"removeFromFavouritesButtonTitle" = "Remove from favourites";
+"addToLibraryButtonTitle" = "Save to library";
+"removeFromLibraryButtonTitle" = "Remove from library";
+
+// MARK: Loading
+"loadingPlaylist" = "Loading playlist";
+"loadingiTunes" = "Importing iTunes library";
+"loggingSpotify" = "Signing in with Spotify";
+"loadingSpotify" = "Loading Spotify library, it might take a moment";
+
+// MARK: Sorting
+"sorting" = "Sorting";
+"titleAscending" = "Name ascending";
+"titleDescending" = "Name descending";
+"ratingAscending" = "Rating ascending";
+"ratingDescending" = "Rating descending";
+"yearAscending" = "Year ascending";
+"yearDescending" = "Year descending";
+"albumAscending" = "Album title ascending";
+"albumDescending" = "Album title descending";
+"artistAscending" = "Artist name ascending";
+"artistDescending" = "Artist name descending";
+"addedAscending" = "Date added ascending";
+"addedDescending" = "Date added descending";
+"typeAscending" = "Type ascending";
+"typeDescending" = "Type descending";
+"tracksAscending" = "Tracks count ascending";
+"tracksDescending" = "Tracks count descending";
+
+"lessThan" = "Less than";
+"moreThan" = "More than";
+
+"today" = "Today";
+"yesterday" = "Yesterday";
+"thisWeek" = "This week";
+"lastWeek" = "Last week";
+"thisMonth" = "Earlier this month";
+"lastMonth" = "Last month";
+"lastQuarter" = "Last 3 months";
+"halfYear" = "Last half year";
+"thisYear" = "Earlier this year";
+"lastYear" = "Last year";
+"moreYear" = "More than year ago";
+
+"showRecentlyAddedSectionOption" = "Show recently added";
+"recentlyAddedSectionTitle" = "Recently added";
+"showAlbumsAboveThreshold" = "Show albums with at least";
+"showArtistsAboveThreshold" = "Show artists with at least";
+
+// MARK: Playlist Attributes
+"playlistAttributeFolder" = "Folders";
+"playlistAttributeGenius" = "Genius Mixes";
+"playlistAttributeSmart" = "Smart Playlists";
+"playlistAttributeShared" = "Public Playlists";
+"playlistAttributePrivate" = "My Playlists";
+"playlistAttributeSourced" = "Source Playlists";
+
+// MARK: Onboarding
+"swipeLeftToBegin" = "Swipe left to begin";
+
+"onboardingSourcesTitle" = "Choose music sources";
+"onboardingSourcesText" = "";
+"onboardingSourcesSpotifyFooter" = "Browse and play songs from your library or followed playlists";
+"onboardingSourcesiTunesFooter" = "iCloud music library or Apple Music are not supported at the moment";
+
+"onboardingHintsTitle" = "Quick hints";
+"onboardingHintsText" = "Enable to receive small hints to help you discover all the nifty features";
+"onboardingSwitchText" = "Display quick hints";
+
+"onboardingPurchaseTitle" = "Full version";
+"onboardingPurchaseText" = "Some features are available only in full version. You can unlock the full version later in settings";
+"onboardingPurchaseTitleSuccess" = "Thank you!";
+"onboardingPurchaseTextSuccess" = "Enjoy all features of Plum";
+"onboardingPurchasePrimaryButton" = "Purchase full version";
+"onboardingPurchaseSecondaryButton" = "Restore purchases";
+
+"onboardingFinitoTitle" = "Finito";
+"onboardingFinitoText" = "You're all set! Time to play some tunes now isn't it?";
+"onboardingFinitoHintText" = "Choose at least one music source";
+"onboardingFinitoPrimaryButton" = "Launch Plum now";
+"onboardingFinitoSecondaryButton" = "Open quick settings";
+
+// MARK: Feedback and review
+"areYouEnjoyingMessage" = "Are You enjoying Plum?";
+"leaveFeedback" = "Leave feedback";
+"leaveFeedbackMessage" = "If you have any problems with the app, please let me know by using one of the options below";
+"openReddit" = "Open reddit";
+"openTwitter" = "Open Twitter";
+"openAppStore" = "Open App Store";
+"openMail" = "Write an e-mail";
+"leaveReview" = "Write a review";
+
+// MARK: Settings
+"unlockedMessage" = "Unlocked";
+"sourcesSettings" = "Sources";
+"appearanceSettings" = "Appearance";
+"spotlightSettings" = "Spotlight";
+"otherSettings" = "Other";
+
+// MARK: Spotlight Settings
+"shouldIndexSongs" = "Include songs";
+"shouldIndexAlbums" = "Include albums";
+"shouldIndexPlaylists" = "Include playlists";
+"shouldIndexArtists" = "Include artists";
+"lastSpotlightUpdate" = "Last update";
+"indexSpotlight" = "Re-index Spotlight";
+"shouldIndexFooter" = "Choose what items should be included in search results";
+"indexSpotlightFooter" = "Manually start indexing Spotlight content.";
+
+// MARK: Appearance Settings
+"gridSectionTitle" = "Grid layout";
+"gridSectionFooter" = "Enable grid layout for different screens";
+"biggerCellsOptionTitle" = "Use bigger cells";
+"biggerCellsFooter" = "Enable to treat your eyes with beautiful big, bold artworks and images";
+"colorizeOptionTitle" = "Colorize";
+"colorizeFooter" = "Pull dominant colors from artwork or photos in album, artist, or now playing screens";
+"colorizeRandomOptionTitle" = "Colorize randomly";
+"colorizeRandomFooter" = "Enable to pull dominant colors from random artwork in playlist";
+"detailedHeadersOptionTitle" = "Detailed headers";
+"detailedHeadersFooter" = "Enable to show number of items in each section";
+"themeSectionTitle" = "Theme";
+"tintColorFooter" = "Choose your preferred color accent to be used throughout the app";
+
+// MARK: Other settings
+"resetTutorialsSwitchDescription" = "Reset tutorial messages and warnings";
+"resetTutorialsButtonTitle" = "Reset shown tutorials";
+"reduceDataOptionTitle" = "Reduce mobile data usage";
+"reduceDataFooter" = "Select if you wish to use lower audio quality and download lower resolution images while using mobile data";
+"swipeGestureFooter" = "Open the Now Playing view by swiping left anywhere on the screen";
+"swipeGestureOptionTitle" = "Full screen swipe gesture";
+"downloadBiosOptionTitle" = "Download descriptions";
+"downloadBiosFooter" = "Enable to download short descriptions of artists and albums. Powered by Last.fm";
+"clearCacheOptionTitle" = "Clear cache";
+"clearCacheFooter" = "If you want to retrieve some of the space that Plum has been using, you can clear the cache. This will remove all downloaded images, bios, and rebuild the music library";
+"clearCacheAlertMessage" = "If you have set custom images for artists, they will be deleted.";
+
+// MARK: Sources settings
+"primarySourceOptionTitle" = "Primary music source";
+"primarySourceFooter" = "Items from sources other than primary will be highlighted in source-specific color to help you distinguish between them";
+
+// MARK: Sources settings
+"audioQualityOptionTitle" = "Audio quality";
+"audioQualityFooter" = "Keep in mind that higher quality means more detailed recording but results in increased data usage. If you want to change the sound quality while using mobile data, go to \"Other\" settings and check the \"Reduce mobile data usage\"";
+"audioQualityLow" = "Low";
+"audioQualityMedium" = "Medium";
+"audioQualityHigh" = "High";
+
+// MARK: Spotify
+"spotifyAllowInAppMessage" = "You have to grant permission to read your Spotify library";
+"spotifyOpenApp" = "Open Spotify";
+"openInSpotify" = "Open in Spotify";
+
+// MARK: Purchases
+"thankYouForPurchaseTitle" = "Purchase successful";
+"thankYouForPurchaseDetail" = "Thank You for supporting Plum, enjoy! 🎉";
+"donateTiny" = "Coffee ☕️";
+"donateSmall" = "Big french fries 🍟";
+"donateMedium" = "Avocado salad 🥑";
+"donateBig" = "Big mac menu 🍔";
+"donateEnourmous" = "One round for my friends 🍻";
+"donateCellTitle" = "Donate 🎉";
+"donateMessageTitle" = "What would you like to buy me?";
+"donateMessageDescription" = "Plum is a hobby project, which I work on after classes, every donation and purchase greatly motivate me to continue improving it.\nIf you enjoy using Plum and you want to help in its development, choose what would you like to buy me";
+"donateCancel" = "I'd rather not 😬";
+"donateSuccessTitle" = "Success!";
+"donateSuccessMessage" = "Thanks for your purchase! 😌";
+
+// MARK: Full features
+"restore" = "Restore";
+"unlockFor" = "Unlock for";
+"featuresLockedTitle" = "Full version";
+"featuresLockedMessage" = "Purchase full version to unlock all features";
+"goToUnlockScreen" = "Go to unlock screen";
+"fullVersionUnlockTitle" = "Unlock all features";
+"fullFeatureGridTitle" = "Grid layout";
+"fullFeatureGridDescription" = "Use grid layout in all available screens and change cell's size.";
+"fullFeatureThemeTitle" = "Light / Dark theme";
+"fullFeatureThemeDescription" = "Instantly switch between light and dark theme.";
+"fullFeatureTintTitle" = "Custom tint color";
+"fullFeatureTintDescription" = "Choose your favourite color to be used across the app.";
+"fullFeatureLastFmTitle" = "Last.fm integration";
+"fullFeatureLastFmDescription" = "Use Last.fm to download your favourite artists' biographies and images.";
+"fullFeatureSpotlightTitle" = "Spotlight search";
+"fullFeatureSpotlightDescription" = "Find your favourite songs, artists, albums and playlists in no time, right from the homescreen of your device.";
+
+"playNow" = "Play now";
+"addNext" = "Add next";
+"addLast" = "Add last";
+"nowPlaying" = "Now playing";
+"upNext" = "Up Next";
+"previous" = "Previous";
+"userQueue" = "Your queue";
+"queue" = "Queue";
+"doShuffle" = "Shuffle";
+"shuffle" = "Shuffle";
+"editing" = "Editing";
+"remove" = "Remove";
+"number_selected" = "selected";
+"outOf" = "of";
+
+"edit" = "Edit";
+
+"libraryNotDeterminedMessage" = "Plum currently doesn't have access to your music library";
+"libraryNotDeterminedButtonTitle" = "Grant permission";
+"libraryDeniedMessage" = "Plum needs access to your music library in order to play it's content.";
+"libraryDeniedButtonTitle" = "Go to settings";
+
+"singleSong" = "song";
+"multipleSongs" = "songs";
+"multipleSongs_1" = "songs";
+"multipleSongs_2" = "songs";
+"singleAlbum" = "album";
+"multipleAlbums" = "albums";
+"multiplePlaylists" = "playlist";
+
+// MARK: Tutorials
+"proTip" = "Pro tip";
+"longPressOnCellForMoreOptions" = "Press and hold on any cell to show quick options.";
+"pressOnArtworkForMoreOptions" = "Press artwork in the now playing view to show more options.";
+"pressOnArtistImageToChangeIt" = "In artist view, tap the main image to change it.";
+"pressOnArtistNameToOpenArtistPage" = "In album view, press artist's name to open corresponding page.";
+"pressOnSongWhileMusicIsPlayingToShowQueueOptions" = "If the music is playing press on a song to show queue options.";
+"pressAndDragSongToReorderQueue" = "In queue view drag and drop a song to reorder the queue.";
+"pressHeartButtonToAddToFavourite" = "Press heart symbol to add element to your favourites.";
+"useSearchInPlaylist" = "Press search symbol to find a song within the playlist.";
+"pressReturnInSearchToPerformActionOnFirstElement" = "Press 'Search' on keyboard to select first element.";
+"pullToRefresh" = "Pull down to refresh if you discover any defects in library.";
+"swipeUpForQueue" = "Scroll down or press Up Next view to open the queue screen";
+"pressAlbumNameToOpenScreen" = "In now playing screen, press the artist, or album name to open the corresponding page";
+"pressBioToExpand" = "Tap on the description to expand it";
+"swipeBioToDelete" = "Swipe left the description cell to hide it";
+
+
+"0songs" = "songs";
+"1songs" = "song";
+"2songs" = "songs";
+"3songs" = "songs";
+"4songs" = "songs";
+"5songs" = "songs";
+"6songs" = "songs";
+"7songs" = "songs";
+"8songs" = "songs";
+"9songs" = "songs";
+"10songs" = "songs";
+"11songs" = "songs";
+"12songs" = "songs";
+"13songs" = "songs";
+"14songs" = "songs";
+"*0songs" = "songs";
+"*1songs" = "songs";
+"*2songs" = "songs";
+"*3songs" = "songs";
+"*4songs" = "songs";
+"*5songs" = "songs";
+"*6songs" = "songs";
+"*7songs" = "songs";
+"*8songs" = "songs";
+"*9songs" = "songs";
+
+"0albums" = "albums";
+"1albums" = "album";
+"2albums" = "albums";
+"3albums" = "albums";
+"4albums" = "albums";
+"5albums" = "albums";
+"6albums" = "albums";
+"7albums" = "albums";
+"8albums" = "albums";
+"9albums" = "albums";
+"10albums" = "albums";
+"11albums" = "albums";
+"12albums" = "albums";
+"13albums" = "albums";
+"14albums" = "albums";
+"*0albums" = "albums";
+"*1albums" = "albums";
+"*2albums" = "albums";
+"*3albums" = "albums";
+"*4albums" = "albums";
+"*5albums" = "albums";
+"*6albums" = "albums";
+"*7albums" = "albums";
+"*8albums" = "albums";
+"*9albums" = "albums";
+
+"0artists" = "artists";
+"1artists" = "artist";
+"2artists" = "artists";
+"3artists" = "artists";
+"4artists" = "artists";
+"5artists" = "artists";
+"6artists" = "artists";
+"7artists" = "artists";
+"8artists" = "artists";
+"9artists" = "artists";
+"10artists" = "artists";
+"11artists" = "artists";
+"12artists" = "artists";
+"13artists" = "artists";
+"14artists" = "artists";
+"*0artists" = "artists";
+"*1artists" = "artists";
+"*2artists" = "artists";
+"*3artists" = "artists";
+"*4artists" = "artists";
+"*5artists" = "artists";
+"*6artists" = "artists";
+"*7artists" = "artists";
+"*8artists" = "artists";
+"*9artists" = "artists";
+
+"0playlists" = "playlists";
+"1playlists" = "playlist";
+"2playlists" = "playlists";
+"3playlists" = "playlists";
+"4playlists" = "playlists";
+"5playlists" = "playlists";
+"6playlists" = "playlists";
+"7playlists" = "playlists";
+"8playlists" = "playlists";
+"9playlists" = "playlists";
+"10playlists" = "playlists";
+"11playlists" = "playlists";
+"12playlists" = "playlists";
+"13playlists" = "playlists";
+"14playlists" = "playlists";
+"*0playlists" = "playlists";
+"*1playlists" = "playlists";
+"*2playlists" = "playlists";
+"*3playlists" = "playlists";
+"*4playlists" = "playlists";
+"*5playlists" = "playlists";
+"*6playlists" = "playlists";
+"*7playlists" = "playlists";
+"*8playlists" = "playlists";
+"*9playlists" = "playlists";
+

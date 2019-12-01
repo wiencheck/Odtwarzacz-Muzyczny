@@ -18,11 +18,8 @@ class NewRepo {
     
     /// Dictionary of providers removed during this app's lifetime.
     private var inactiveProvidersDictionary: [AWMediaSource: MusicProviding] = [:]
-    
-    private lazy var spotlightManager = AWSpotlightManager(domainIdentifier: Bundle.main.bundleIdentifier ?? "com.adw.plum")
-    
+        
     init() {
-        //addObservers()
     }
     
     @discardableResult
@@ -51,23 +48,6 @@ class NewRepo {
             return nil
         }
         return inactiveProvidersDictionary.updateValue(p, forKey: source)
-    }
-    
-    private func addObservers() {
-        NotificationCenter.default.addObserver(forName: Settings.activeMediaSourcesChangedNotification, object: nil, queue: nil) { [weak self] notification in
-            guard let self = self, let sources = notification.object as? Set<AWMediaSource> else { return }
-            DispatchQueue.main.async {
-                for source in AWMediaSource.allCases {
-                    if sources.contains(source) {
-                        let p = self.getProvider(source: source)
-                        p.addObservers()
-                    } else {
-                        let p = self.removeProvider(source: source)
-                        p?.removeObservers()
-                    }
-                }
-            }
-        }
     }
     
     func f(from sources: Set<AWMediaSource>, localCompletion: ((Error?) -> Void)? = nil, remoteCompletion: ((Error?) -> Void)? = nil) {
@@ -121,59 +101,6 @@ class NewRepo {
         
         group.notify(queue: .main) {
             completion?(error)
-        }
-    }
-    
-    func sp(sources: Set<AWMediaSource>, types: [AWSpotlightItemType]) {
-        let group = DispatchGroup()
-        var error: Error?
-        
-        for type in types {
-            group.enter()
-            switch type {
-            case .song:
-                getAllSongs(from: sources) { result in
-                    switch result {
-                    case .success(let collection):
-                        
-                        guard let searchable = collection as? [AWSpotlightSearchable] else {
-                            return
-                        }
-                        
-                        self.spotlightManager.index(items: searchable, type: .song, queue: .main, completion: { err in
-                            error = err
-                            group.leave()
-                        })
-                    case .failure(let err):
-                        error = err
-                        group.leave()
-                    }
-                }
-            case .playlist:
-                getAllPlaylists(from: sources) { result in
-                    switch result {
-                    case .success(let playlists):
-                        
-                        guard let searchable = playlists as? [AWSpotlightSearchable] else {
-                            return
-                        }
-                        
-                        self.spotlightManager.index(searchable, type: .playlist, completion: { err in
-                            error = err
-                            group.leave()
-                        })
-                    case .failure(let err):
-                        error = err
-                        group.leave()
-                    }
-                }
-            default:
-                break
-            }
-        }
-        
-        group.notify(queue: .main) {
-            print(error?.localizedDescription)
         }
     }
     
@@ -490,120 +417,6 @@ class NewRepo {
         providersDictionary[source]?.getPlaylist(identifier: identifier, completion: completion)
     }
         
-    // MARK: Spotlight interaction
-    
-    public func spotlightIndex(_ elements: [AWSpotlightItemType], completion: IndexCompletion?) {
-        let group = DispatchGroup()
-        var error: Error?
-        
-        DispatchQueue.spotlight.async {
-            for type in elements {
-                let items: [AWSpotlightSearchable]
-                switch type {
-                case .song:
-                    self.getAllSongs(from: Settings.activeMediaSources) { result in
-                        switch result {
-                        case .success(let tracks):
-                            guard let searchable = tracks as? [AWSpotlightSearchable] else {
-                                return
-                            }
-                            self.indexItems(searchable, type: .song) { error in
-                                print(error)
-                            }
-                        case .failure(_):
-                            return
-                        }
-                    }
-                    // TODO
-                //items = [] //iTunes.allTracks as! [MPMediaItem]
-                case .album:
-                    items = []
-                case .artist:
-                    items = []
-                case .playlist:
-                    items = []
-                }
-                //            group.enter()
-                //            indexItems(items, type: type) { err in
-                //                error = err
-                //                group.leave()
-                //            }
-            }
-        }
-        
-//        for type in elements {
-//            let items: [AWSpotlightSearchable]
-//            switch type {
-//            case .song:
-//                getAllSongs(from: Settings.activeMediaSources) { result in
-//                    switch result {
-//                    case .success(let tracks):
-//                        guard let searchable = tracks as? [AWSpotlightSearchable] else {
-//                            return
-//                        }
-//                        self.indexItems(searchable, type: .song) { error in
-//                            print(error)
-//                        }
-//                    case .failure(_):
-//                        return
-//                    }
-//                }
-//                // TODO
-//                //items = [] //iTunes.allTracks as! [MPMediaItem]
-//            case .album:
-//                items = []
-//            case .artist:
-//                items = []
-//            case .playlist:
-//                items = []
-//            }
-////            group.enter()
-////            indexItems(items, type: type) { err in
-////                error = err
-////                group.leave()
-////            }
-//        }
-//        group.notify(queue: .main) {
-//            completion?(error)
-//        }
-    }
-    
-    public func spotlightDeindex(_ elements: [AWSpotlightItemType], completion: IndexCompletion?) {
-        let group = DispatchGroup()
-        var error: Error?
-        for type in elements {
-            group.enter()
-            deindexItems(nil, type: type) { err in
-                error = err
-                group.leave()
-            }
-        }
-        group.notify(queue: .main) {
-            completion?(error)
-        }
-    }
-    
-    // Check whether songs count changed since last indexing
-    private func shouldIndexItems(_ items: [AWSpotlightSearchable], type: AWSpotlightItemType) -> Bool {
-        guard let indexed = spotlightManager.indexed[type.rawValue] else { return true }
-        return indexed.count != items.count
-    }
-    
-    private func indexItems(_ items: [AWSpotlightSearchable], type: AWSpotlightItemType, completion: ((Error?) -> Void)?) {
-        guard shouldIndexItems(items, type: type) else {
-            completion?(nil)
-            return
-        }
-        spotlightManager.deindex(nil, type: type) { error in
-            guard error == nil else { return }
-            self.spotlightManager.index(items, type: type, onProgress: nil, completion: completion)
-        }
-    }
-    
-    private func deindexItems(_ items: [MPMediaItem]?, type: AWSpotlightItemType?, completion: ((Error?) -> Void)?) {
-        //spotlightManager.deindex(items, type: type, completion: completion)
-    }
-    
 }
 
 extension NewRepo: MusicProvidingDelegate {

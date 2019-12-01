@@ -1,0 +1,327 @@
+/* 
+  Polish.strings
+  Plum 2
+
+  Created by Adam Wienconek on 03.06.2018.
+  Copyright © 2018 Adam Wienconek. All rights reserved.
+*/
+
+"songs" = "Utwory";
+"artists" = "Wykonawcy";
+"albums" = "Albumy";
+"playlist" = "Playlista";
+"playlists" = "Playlisty";
+"favourites" = "Ulubione";
+"album" = "Album";
+"artist" = "Wykonawca";
+"settings" = "Ustawienia";
+
+"unknownArtist" = "Nieznany Wykonawca";
+"unknownTitle" = "Nieznany Tytuł";
+"unknownAlbum" = "Nieznany Album";
+"noLyrics" = "Ten utwór nie posiada tekstu, możesz go dodać w iTunes";
+"artist" = "Wykonawca";
+"album" = "Album";
+"options" = "Opcje";
+"darkMode" = "Ciemny motyw";
+"showRating" = "Pokazuj oceny";
+"grid" = "Widok siatki";
+"pickSongs" = "Dodaj utwory do kolejki";
+"goToAlbum" = "Idź do albumu";
+"goToArtist" = "Idź do wykonawcy";
+
+"errorOccurred" = "Wystąpił błąd";
+"errorOccurredExpand" = "Wyświetl szczegóły";
+"areYouSure" = "Jesteś pewien?";
+"miniplayerWelcome" = "Witaj w Plum";
+"miniplayerPick" = "Zacznij coś odtwarzać";
+"yes" = "Tak";
+"no" = "Nie";
+"cancel" = "Anuluj";
+"proceed" = "Kontynuuj";
+"shouldShuffleItems" = "Czy chcesz wymieszać utwory?";
+"shouldContinuePlaying" = "Czy chcesz kontynuować odtwarzanie w wybranej playliście?";
+"searchScopeLibrary" = "Twoja biblioteka";
+"searchScopeCurrentScreen" = "Bieżący ekran";
+"backButtonTitle" = "Wróć";
+"searchButtonShowMore" = "Rozwiń";
+"searchButtonShowLess" = "Zwiń";
+"noFavouritesMessage" = "Nie dodałeś jeszcze nic do ulubionych, szukaj przycisku z symbolem serca '♡' aby dodać albumy, wykonawców i playlisty do kolekcji.";
+"wasAddedToFavourites" = "został dodany do ulubionych";
+"wasRemovedFromFavourites" = "został usunięty z ulubionych";
+"willBePlayedNext" = "będzie odtwarzane następne";
+"willBePlayedLast" = "będzie odtwarzane ostatnie";
+"rootSetAsHome" = "Domyślny";
+"mediaPickerPickItems" = "Dodaj utwory do kolejki";
+"nowPlayingFoundArtistMessage" = "Utwór tego artysty jest obecnie odtwarzany";
+"nowPlayingFoundArtistContinueOption" = "Kontynuuj odtwarzanie w albumie";
+"nowPlayingFoundAlbumMessage" = "Utwór z tego albumu jest obecnie odtwarzany";
+"nowPlayingFoundAlbumContinueOption" = "Kontynuuj odtwarzanie w albumie";
+"nowPlayingFoundPlaylistMessage" = "Utwór znajdujący się w tej liście jest obecnie odtwarzany";
+"nowPlayingFoundPlaylistContinueOption" = "Kontynuuj odtwarzanie w playliście";
+"nowPlayingFoundStartOverOption" = "Odtwarzaj od początku";
+"endOfQueue" = "Koniec kolejki";
+"markAsRead" = "Przeczytane";
+"allSongs" = "Wszystkie utwory";
+"artistImageDownload" = "Pobierz";
+"artistImagePick" = "Wybierz z galerii";
+"artistImagePaste" = "Wklej";
+"artistImageRemove" = "Usuń";
+"addToPlaylist" = "Dodaj do playlisty";
+"nowPlayingAddPlaylist" = "Dodaj do playlisty";
+"playlistSongPickerPrompt" = "Dodaj utwory do playlisty";
+"nowPlayingLyrics" = "Tekst";
+"nowPlayingRating" = "Ocena";
+"playlistDescriptionCreatedBy" = "Utworzone przez";
+"loading" = "Wczytywanie";
+"playlistSmartDescription" = "Playlista inteligentna";
+"playlistGeniusDescription" = "Playlista Genius";
+"rateMenuTitle" = "Oceń";
+"search" = "Szukaj";
+"variousArtists" = "Różni Wykonawcy";
+
+// MARK: Feedback and review
+//case areYouEnjoyingMessage
+//case areYouEnjoyingNo
+//case areYouEnjoyingYes
+//case openReddit
+//case openTwitter
+//case openAppStore
+//case openMail
+//case leaveFeedback
+//case leaveFeedbackMessage
+//case leaveReview
+
+// MARK: Settings
+"unlockedMessage" = "Unlocked";
+
+// MARK: Spotlight Settings
+"spotlightSettings" = "Wyszukiwanie Spotlight";
+"shouldIndexSongs" = "Wyświetlaj utwory";
+"shouldIndexAlbums" = "Wyświetlaj albumy";
+"shouldIndexPlaylists" = "Wyświetlaj playlisty";
+"shouldIndexArtists" = "Wyświetlaj artystów";
+"lastSpotlightUpdate" = "Ostatnia aktualizacja";
+"indexSpotlight" = "Indeksuj bibliotekę";
+"shouldIndexFooter" = "Wybierz co ma się pojawiać w wynikach wyszukiwania.";
+"indexSpotlightFooter" = "Ręcznie rozpocznij indeksowanie biblioteki.";
+
+// MARK: Appearance Settings
+"appearanceSettings" = "Wygląd i układ";
+"gridHeader" = "Układ siatki";
+"albumsGrid" = "Widok albumów";
+"artistsGrid" = "Widok artystów";
+"playlistsGrid" = "Widok playlist";
+"gridFooter" = "Włącz lub wyłącz widok siatki dla konkretnych ekranów.";
+"biggerCells" = "Używaj większych komórek";
+"biggerCellsFooter" = "Wybierz czy wolisz używać większych komórek (3 kolumny) czy mniejszych (2 kolumny).";
+"tintColor" = "Kolor aplikacji";
+"tintColorFooter" = "Wybierz swój preferowany kolor, który będzie używany jako główny akcent w aplikacji.";
+
+// MARK: LastFM Settings
+"lastFmSettings" = "Ustawienia Last FM";
+"shouldFetchImages" = "Pobieraj obrazki artystów";
+"shouldFetchBios" = "Pobieraj biografie i opisy";
+"fetchAllImages" = "Pobierz wszystkie obrazki";
+"fetchAllBios" = "Pobierz wszystkie biografie i opisy";
+"imagesFooter" = "Włącz, aby pobierać obrazki artystów. Może to potencjalnie zużywać duże ilości danych, więc zalecane jest pobieranie tylko na połączeniu WiFi.";
+"biosFooter" = "Włącz, aby pobierać biografie artystów oraz opisy albumów.";
+"removeBiosWarningMessage" = "Wyłączenie tej funkcji spowoduje usunięcie pobranych dotychczas opisów. Czy chcesz kontynuować?";
+"removeImagesWarningMessage" = "Wyłączenie tej funkcji spowoduje usunięcie pobranych dotychczas obrazków. Czy chcesz kontynuować?";
+
+// MARK: Other settings
+"otherSettings" = "Pozostałe";
+"resetTutorialsDescription" = "Wyzeruj ostrzeżenia i podpowedzi";
+
+// MARK: Purchases
+"donateTiny" = "Kawę ☕️";
+"donateSmall" = "Duże frytki 🍟";
+"donateMedium" = "Sałatkę z awokado 🥑";
+"donateBig" = "Zestaw Zinger 🍔";
+"donateEnourmous" = "Kolejkę dla przyjaciół 🍻";
+"donateCellTitle" = "Zafunduj mi coś 🎉";
+"donateMessageTitle" = "Co chcesz mi zafundować?";
+"donateMessageDescription" = "Plum powstaje jako hobbystyczny projekt, nad którym pracuję po zajęciach na uczelni, każda darowizna i zakup dodatkowo motywują mnie do dalszego rozwijania projektu.\nJeśli lubisz używać Pluma i chcesz pomóc w jego rozwoju, wybierz co chciałbyś mi zafundować";
+"donateCancel" = "Jednak nie chcę 😬";
+"donateSuccessTitle" = "Sukces";
+"donateSuccessMessage" = "Dzięki za zakup! 😌";
+
+// MARK: Full features
+"restore" = "Restore";
+"unlockFor" = "Unlock for";
+"unlockedMessage" = "Kupione";
+"featuresLockedTitle" = "Pełna wersja";
+"featuresLockedMessage" = "Zakup pełną wersję aplikacji, aby odblokować wszystkie funkcje.";
+"goToUnlockScreen" = "Przejdź do ekranu płatności";
+"fullVersionUnlockTitle" = "Odblokuj wszystkie funkcje";
+"fullFeatureGridTitle" = "Widok siatki";
+"fullFeatureGridDescription" = "Używaj widoku siatki we wszystkich dostępnych widokach, oraz zmieniaj rozmiar komórek.";
+"fullFeatureThemeTitle" = "Jasny / ciemny motyw";
+"fullFeatureThemeDescription" = "Instantly switch between light and dark theme.";
+"fullFeatureTintTitle" = "Akcent motywu";
+"fullFeatureTintDescription" = "Wybierz swój ulubiony kolor, który będzie użyty w aplikacji.";
+"fullFeatureLastFmTitle" = "Integracja z Last.fm";
+"fullFeatureLastFmDescription" = "Pobieraj obrazki oraz opisy artystów i albumów z serwisu Last.fm.";
+"fullFeatureSpotlightTitle" = "Wyszukiwanie Spotlight";
+"fullFeatureSpotlightDescription" = "Błyskawicznie wyszukuj ulubione utwory, artystów, albumy oraz playlisty z ekranu domowego swojego urządzenia.";
+
+"playNow" = "Odtwarzaj";
+"addNext" = "Następny";
+"addLast" = "Ostatni";
+"nowPlaying" = "Teraz odtwarzane";
+"upNext" = "Następne";
+"previous" = "Poprzednie";
+"userQueue" = "Kolejka";
+"queue" = "Kolejka";
+"doShuffle" = "Pomieszaj";
+"shuffle" = "Mieszanie";
+"editing" = "Edycja";
+"remove" = "Usuń";
+"number_selected" = "zaznaczone";
+"outOf" = "z";
+
+"edit" = "Edycja";
+"sorting" = "Sortowanie";
+"titleAscending" = "Tytuł rosnąco";
+"titleDescending" = "Tytuł malejąco";
+"ratingAscending" = "Ocena rosnąco";
+"ratingDescending" = "Ocena malejąco";
+"yearAscending" = "Rok rosnąco";
+"yearDescending" = "Rok malejąco";
+"tracksAscending" = "Ilość utworów rosnąco";
+"tracksDescending" = "Ilość utworów malejąco";
+"albumsAscending" = "Ilość albumów rosnąco";
+"albumsDescending" = "Ilość albumów malejąco";
+"addedAscending" = "Data dodania rosnąco";
+"addedDescending" = "Data dodania malejąco";
+"typeAscending" = "Rodzaj rosnąco";
+"typeDescending" = "Rodzaj malejąco";
+
+"libraryNotDeterminedMessage" = "Plum nie posiada obecnie dostępu do biblioteki muzycznej na tym urządzeniu.";
+"libraryNotDeterminedButtonTitle" = "Przyznaj dostęp";
+"libraryDeniedMessage" = "Plum ma obecnie zablokowany dostęp do biblioteki muzycznej na tym urządzeniu.";
+"libraryDeniedButtonTitle" = "Przejdź do ustawień";
+
+"singleSong" = "utwór";
+"multipleSongs" = "utworów";
+"multipleSongs_1" = "utwory";
+"multipleSongs_2" = "utworów";
+"singleAlbum" = "album";
+"multipleAlbums" = "albumów";
+"multiplePlaylists" = "playlist";
+
+// MARK: Tutorials
+"proTip" = "Pro tip";
+"longPressOnCellForMoreOptions" = "Naciśnij i przytrzymaj element, aby pokazać więcej opcji.";
+"pressOnArtworkForMoreOptions" = "Naciśnij okładkę albumu, aby pokazać ukryte opcje.";
+"pressOnArtistImageToChangeIt" = "Naciśnij obrazek artysty, aby go pokazać możliwości edycji.";
+"pressOnArtistNameToOpenArtistPage" = "Naciśnij nazwę artysty, aby przejść do jego ekranu.";
+"pressOnSongWhileMusicIsPlayingToShowQueueOptions" = "Naciśnij na utwór podczas odtwarzania, aby pokazać opcje kolejkowania.";
+"pressAndDragSongToReorderQueue" = "Naciśnij i przeciągnij utwór, aby zmienić jego pozycję w kolejce.";
+"pressHeartButtonToAddToFavourite" = "Naciśnij symbol serca, aby dodać element do ulubionych.";
+"useSearchInPlaylist" = "Naciśnij symbol lupy, aby wyszukać utwór wewnątrz playlisty.";
+"pressReturnInSearchToPerformActionOnFirstElement" = "Naciśnij 'Szukaj' na klawiaturze, aby wykonać akcję na pierwszym elemencie.";
+
+"0songs" = "utworów";
+"1songs" = "utwór";
+"2songs" = "utwory";
+"3songs" = "utwory";
+"4songs" = "utwory";
+"5songs" = "utworów";
+"6songs" = "utworów";
+"7songs" = "utworów";
+"8songs" = "utworów";
+"9songs" = "utworów";
+"10songs" = "utworów";
+"11songs" = "utworów";
+"12songs" = "utworów";
+"13songs" = "utworów";
+"14songs" = "utworów";
+"*0songs" = "utworów";
+"*1songs" = "utworów";
+"*2songs" = "utwory";
+"*3songs" = "utwory";
+"*4songs" = "utwory";
+"*5songs" = "utworów";
+"*6songs" = "utworów";
+"*7songs" = "utworów";
+"*8songs" = "utworów";
+"*9songs" = "utworów";
+
+"0albums" = "albumów";
+"1albums" = "album";
+"2albums" = "albumy";
+"3albums" = "albumy";
+"4albums" = "albumy";
+"5albums" = "albumów";
+"6albums" = "albumów";
+"7albums" = "albumów";
+"8albums" = "albumów";
+"9albums" = "albumów";
+"10albums" = "albumów";
+"11albums" = "albumów";
+"12albums" = "albumów";
+"13albums" = "albumów";
+"14albums" = "albumów";
+"*0albums" = "albumów";
+"*1albums" = "albumów";
+"*2albums" = "albumy";
+"*3albums" = "albumy";
+"*4albums" = "albumy";
+"*5albums" = "albumów";
+"*6albums" = "albumów";
+"*7albums" = "albumów";
+"*8albums" = "albumów";
+"*9albums" = "albumów";
+
+"0artists" = "wykonawców";
+"1artists" = "wykonawca";
+"2artists" = "wykonawców";
+"3artists" = "wykonawców";
+"4artists" = "wykonawców";
+"5artists" = "wykonawców";
+"6artists" = "wykonawców";
+"7artists" = "wykonawców";
+"8artists" = "wykonawców";
+"9artists" = "wykonawców";
+"10artists" = "wykonawców";
+"11artists" = "wykonawców";
+"12artists" = "wykonawców";
+"13artists" = "wykonawców";
+"14artists" = "wykonawców";
+"*0artists" = "wykonawców";
+"*1artists" = "wykonawców";
+"*2artists" = "wykonawców";
+"*3artists" = "wykonawców";
+"*4artists" = "wykonawców";
+"*5artists" = "wykonawców";
+"*6artists" = "wykonawców";
+"*7artists" = "wykonawców";
+"*8artists" = "wykonawców";
+"*9artists" = "wykonawców";
+
+"0playlists" = "playlist";
+"1playlists" = "playlista";
+"2playlists" = "playlisty";
+"3playlists" = "playlisty";
+"4playlists" = "playlisty";
+"5playlists" = "playlist";
+"6playlists" = "playlist";
+"7playlists" = "playlist";
+"8playlists" = "playlist";
+"9playlists" = "playlist";
+"10playlists" = "playlist";
+"11playlists" = "playlist";
+"12playlists" = "playlist";
+"13playlists" = "playlist";
+"14playlists" = "playlist";
+"*0playlists" = "playlist";
+"*1playlists" = "playlist";
+"*2playlists" = "playlisty";
+"*3playlists" = "playlisty";
+"*4playlists" = "playlisty";
+"*5playlists" = "playlist";
+"*6playlists" = "playlist";
+"*7playlists" = "playlist";
+"*8playlists" = "playlist";
+"*9playlists" = "playlist";

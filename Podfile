@@ -7,6 +7,7 @@ target 'Odtwarzacz Muzyczny' do
 
   pod 'Spartan'
   pod 'RealmSwift'
+  pod 'AlamofireImage', '~> 3.5'
 
   # Pods for Odtwarzacz Muzyczny
 

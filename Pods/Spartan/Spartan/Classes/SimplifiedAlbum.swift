@@ -37,6 +37,9 @@ public class SimplifiedAlbum: SpartanBaseObject {
     public private(set) var externalUrls: [String: String]!
     public private(set) var images: [SpartanImage]!
     public private(set) var name: String!
+    
+    public var addedAt: String?
+    public var releaseDate: String?
 
     override public func mapping(map: Map) {
         super.mapping(map: map)

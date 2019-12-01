@@ -25,7 +25,7 @@ public class Album: SimplifiedAlbum {
     public private(set) var genres: [String]?
     public private(set) var label: String!
     public private(set) var popularity: Int!
-    public private(set) var releaseDate: String!
+//    public private(set) var releaseDate: String!
     public private(set) var releaseDatePrecision: String!
     public private(set) var tracks: PagingObject<SimplifiedTrack>!
 

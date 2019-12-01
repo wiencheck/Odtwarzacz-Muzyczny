@@ -26,6 +26,8 @@ public class SimplifiedArtist: SpartanBaseObject {
     
     public private(set) var name: String!
     
+    public var albumImages: [SpartanImage]?
+    
     public override func mapping(map: Map) {
         super.mapping(map: map)
         name <- map["name"]

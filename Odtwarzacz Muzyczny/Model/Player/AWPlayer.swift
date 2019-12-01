@@ -50,7 +50,6 @@ final class AWPlayer {
     }
     
     init() {
-        addObservers()
         remoteCommandCenterManager = AWRemoteControlManager(delegate: self)
         
         nowPlayingInfoManager = AWNowPlayingInfoManager(delegate: self)
@@ -58,38 +57,6 @@ final class AWPlayer {
         audioSessionHelper = AVAudioSessionHelper(delegate: self)
         
         //setCurrentAudioRoute()
-    }
-    
-    deinit {
-        if let observer = interruptionObserver {
-            NotificationCenter.default.removeObserver(observer, name: Settings.activeMediaSourcesChangedNotification, object: nil)
-        }
-        if let observer = routeObserver {
-            NotificationCenter.default.removeObserver(observer, name: Settings.activeMediaSourcesChangedNotification, object: nil)
-        }
-        if let observer = sourcesObserver {
-            NotificationCenter.default.removeObserver(observer, name: Settings.activeMediaSourcesChangedNotification, object: nil)
-        }
-        //setSession(active: false)
-    }
-    
-    private func addObservers() {
-        sourcesObserver = NotificationCenter.default.addObserver(forName: Settings.activeMediaSourcesChangedNotification, object: nil, queue: nil) { [weak self] notification in
-            guard let self = self, let sources = notification.object as? Set<AWMediaSource> else { return }
-            for source in AWMediaSource.allCases {
-                if sources.contains(source) {
-                    self.getPlayer(source: source)
-                } else {
-                    self.removePlayer(source: source)
-                }
-            }
-        }
-//        interruptionObserver = NotificationCenter.default.addObserver(forName: AVAudioSession.interruptionNotification, object: nil, queue: .main, using: { notification in
-//            self.handleAudioSessionInterruption(notification)
-//        })
-//        routeObserver = NotificationCenter.default.addObserver(forName: AVAudioSession.routeChangeNotification, object: nil, queue: nil, using: { notification in
-//            self.handleAudioRouteChanged(notification)
-//        })
     }
     
     @discardableResult
@@ -925,7 +892,7 @@ extension AWPlayer: MPNowPlayingInfoProvider {
         //nowPlayingInfoArtwork = nil
         item.artwork(for: .small) { a in
             self.nowPlayingInfoArtwork = MPMediaItemArtwork(boundsSize: MPMediaItemArtwork.preferredInfoCenterArtworkSize, requestHandler: { size -> UIImage in
-                return a ?? AWAsset.no_artwork.image
+                return a ?? UIImage(systemName: "music.note")!
             })
         }
     }

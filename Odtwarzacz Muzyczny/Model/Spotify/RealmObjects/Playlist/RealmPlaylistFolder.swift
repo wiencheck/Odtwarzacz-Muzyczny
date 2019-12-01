@@ -43,7 +43,7 @@ import RealmSwift
     
     func image(for size: ImageSize, attributed: Bool, completion: @escaping (UIImage?) -> Void) {
         if attributed {
-            completion(AWAsset.folder.cell)
+            completion(UIImage(systemName: "folder"))
             return
         }
         guard let url = imageUrl(for: size) else {

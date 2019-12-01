@@ -1,5 +1,7 @@
 PODS:
   - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
   - AlamofireObjectMapper (5.2.1):
     - Alamofire (~> 4.7)
     - ObjectMapper (~> 3.4)
@@ -15,12 +17,14 @@ PODS:
     - AlamoRecord (~> 1.2.0)
 
 DEPENDENCIES:
+  - AlamofireImage (~> 3.5)
   - RealmSwift
   - Spartan
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - AlamofireImage
     - AlamofireObjectMapper
     - AlamoRecord
     - ObjectMapper
@@ -30,6 +34,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
   AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
   AlamoRecord: 5850c563a811fdca40cd361b1b27622004bccef3
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
@@ -37,6 +42,6 @@ SPEC CHECKSUMS:
   RealmSwift: 9e2657b33764f80e4a4dffd6d440e24715782052
   Spartan: 2fb99ad25f2b0e8182799f251c800091977f0a40
 
-PODFILE CHECKSUM: 641cfee75d0eeabc118bf39befc1b2c134f8bdf7
+PODFILE CHECKSUM: 22e92bf193e8e4564a5fb2c376d9cb2161133ea1
 
 COCOAPODS: 1.7.1

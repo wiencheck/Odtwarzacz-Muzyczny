@@ -90,7 +90,7 @@ class SpotifyPlayer: NSObject, Player {
         if NetworkMonitor.shared.isReducingDataUsage {
             return .low
         } else {
-            return Settings.spotifyBitrate
+            return .high
         }
     }
     

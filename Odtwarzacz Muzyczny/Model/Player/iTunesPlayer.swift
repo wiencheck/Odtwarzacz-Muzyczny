@@ -161,7 +161,6 @@ class iTunesPlayer: NSObject, Player {
     }
     
     func stop() {
-        updateMetadata(for: nowPlayingItem)
         player.currentTime = 0
         player.stop()
         playbackState = .stopped
@@ -239,14 +238,6 @@ class iTunesPlayer: NSObject, Player {
 }
 
 extension iTunesPlayer: AVAudioPlayerDelegate {
-    private func updateMetadata(for item: MPMediaItem?) {
-        if player.progress < 0.1 {
-            item?.incrementSkipCount()
-        } else if player.progress > 0.7 {
-            item?.incrementPlayCount()
-        }
-    }
-    
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
 //        updateMetadata()
         if isRepeating || isReducingGap { return }

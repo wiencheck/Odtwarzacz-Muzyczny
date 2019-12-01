@@ -36,6 +36,9 @@ public class SimplifiedTrack: SpartanBaseObject {
     public private(set) var previewUrl: String!
     public private(set) var trackNumber: Int!
     
+    public var album: SimplifiedAlbum!
+    public var addedAt: String?
+    
     public override func mapping(map: Map) {
         super.mapping(map: map)
         artists <- map["artists"]

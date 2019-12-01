@@ -116,22 +116,7 @@ import RealmSwift
     
     dynamic var _lyrics: String? = nil
     func lyrics(completion: @escaping (String?) -> Void) {
-        if let lyrics = _lyrics {
-            completion(lyrics)
-        } else {
-            LyricsHelper.getLyrics(artist: artistName, title: trackName) { lyrics in
-                guard let lyrics = lyrics else {
-                    completion(nil)
-                    return
-                }
-                if let realm = self.realm {
-                    try? realm.write {
-                        self._lyrics = lyrics
-                    }
-                }
-                completion(lyrics)
-            }
-        }
+        completion(_lyrics)
     }
     
     let _discNumber = RealmOptional<Int>()
