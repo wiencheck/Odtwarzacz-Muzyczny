@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1989CAB6BB07A1B5A6C4235D /* Pods_Odtwarzacz_Muzyczny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60E032949881DE56D143DF0 /* Pods_Odtwarzacz_Muzyczny.framework */; };
+		1CFB1CBEF6059244C60779E3 /* Pods_Odtwarzacz_MuzycznyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B12F6C53D715A1DB9AE842 /* Pods_Odtwarzacz_MuzycznyTests.framework */; };
 		2B7CE1B32393FE6D00DDA05F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1B22393FE6D00DDA05F /* AppDelegate.swift */; };
 		2B7CE1B52393FE6D00DDA05F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1B42393FE6D00DDA05F /* SceneDelegate.swift */; };
 		2B7CE1B72393FE6D00DDA05F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1B62393FE6D00DDA05F /* ViewController.swift */; };
@@ -18,6 +20,40 @@
 		2B7CE1D82394010B00DDA05F /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7CE1D62394010B00DDA05F /* SpotifyAuthentication.framework */; };
 		2B7CE1DC2394012200DDA05F /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7CE1DA2394012200DDA05F /* SpotifyAudioPlayback.framework */; };
 		2B7CE1DD2394012200DDA05F /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7CE1DB2394012200DDA05F /* SpotifyAuthentication.framework */; };
+		2B7CE2182394045700DDA05F /* NewRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1E52394045600DDA05F /* NewRepo.swift */; };
+		2B7CE2192394045700DDA05F /* MusicProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1E62394045600DDA05F /* MusicProviding.swift */; };
+		2B7CE21A2394045700DDA05F /* SpotifyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1E72394045600DDA05F /* SpotifyProvider.swift */; };
+		2B7CE21B2394045700DDA05F /* iTunesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1E82394045600DDA05F /* iTunesProvider.swift */; };
+		2B7CE21C2394045700DDA05F /* SpotifyManagerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1EA2394045600DDA05F /* SpotifyManagerC.swift */; };
+		2B7CE21D2394045700DDA05F /* RealmPlaylistTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1ED2394045600DDA05F /* RealmPlaylistTrack.swift */; };
+		2B7CE21E2394045700DDA05F /* RealmPlaylistTrack+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1EE2394045600DDA05F /* RealmPlaylistTrack+.swift */; };
+		2B7CE21F2394045700DDA05F /* RealmPlaylist+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1EF2394045600DDA05F /* RealmPlaylist+.swift */; };
+		2B7CE2202394045700DDA05F /* RealmPlaylistFolder+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1F02394045600DDA05F /* RealmPlaylistFolder+.swift */; };
+		2B7CE2212394045700DDA05F /* RealmPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1F12394045600DDA05F /* RealmPlaylist.swift */; };
+		2B7CE2222394045700DDA05F /* RealmPlaylistFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1F22394045600DDA05F /* RealmPlaylistFolder.swift */; };
+		2B7CE2232394045700DDA05F /* RealmTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1F42394045600DDA05F /* RealmTrack.swift */; };
+		2B7CE2242394045700DDA05F /* RealmTrack+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1F52394045600DDA05F /* RealmTrack+Convenience.swift */; };
+		2B7CE2252394045700DDA05F /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1F62394045600DDA05F /* RealmManager.swift */; };
+		2B7CE2262394045700DDA05F /* MyRealmObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1F72394045600DDA05F /* MyRealmObject.swift */; };
+		2B7CE2272394045700DDA05F /* RealmAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1F92394045600DDA05F /* RealmAlbum.swift */; };
+		2B7CE2282394045700DDA05F /* RealmAlbum+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1FA2394045600DDA05F /* RealmAlbum+Convenience.swift */; };
+		2B7CE2292394045700DDA05F /* RealmArtist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1FC2394045600DDA05F /* RealmArtist+Convenience.swift */; };
+		2B7CE22A2394045700DDA05F /* RealmArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1FD2394045600DDA05F /* RealmArtist.swift */; };
+		2B7CE22B2394045700DDA05F /* SpotifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1FE2394045600DDA05F /* SpotifyManager.swift */; };
+		2B7CE22C2394045700DDA05F /* SpotifyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1FF2394045600DDA05F /* SpotifyConstants.swift */; };
+		2B7CE22D2394045700DDA05F /* SpotifyValues.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B7CE2002394045600DDA05F /* SpotifyValues.plist */; };
+		2B7CE2362394045700DDA05F /* initPlum.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2B7CE20B2394045700DDA05F /* initPlum.m4a */; };
+		2B7CE2372394045700DDA05F /* iTunesPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE20C2394045700DDA05F /* iTunesPlayer.swift */; };
+		2B7CE2382394045700DDA05F /* AWRemoteControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE20D2394045700DDA05F /* AWRemoteControlManager.swift */; };
+		2B7CE2392394045700DDA05F /* SpotifyPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE20E2394045700DDA05F /* SpotifyPlayer.swift */; };
+		2B7CE23A2394045700DDA05F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE20F2394045700DDA05F /* Helpers.swift */; };
+		2B7CE23B2394045700DDA05F /* AWPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE2102394045700DDA05F /* AWPlayer.swift */; };
+		2B7CE23C2394045700DDA05F /* AVAudioSessionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE2112394045700DDA05F /* AVAudioSessionHelper.swift */; };
+		2B7CE23D2394045700DDA05F /* AWPlayer+QueuePersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE2122394045700DDA05F /* AWPlayer+QueuePersistence.swift */; };
+		2B7CE23E2394045700DDA05F /* AWPlayerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE2132394045700DDA05F /* AWPlayerTypes.swift */; };
+		2B7CE23F2394045700DDA05F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE2142394045700DDA05F /* Player.swift */; };
+		2B7CE2402394045700DDA05F /* AWPlayer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE2152394045700DDA05F /* AWPlayer+.swift */; };
+		2B7CE2412394045700DDA05F /* AWNowPlayingInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE2162394045700DDA05F /* AWNowPlayingInfoManager.swift */; };
 		97CECA18145143BB447D7E54 /* Pods_Odtwarzacz_Muzyczny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32690AD81E07BBB1A187A90B /* Pods_Odtwarzacz_Muzyczny.framework */; };
 		F642B56B6C9F50925502A7FE /* Pods_Odtwarzacz_MuzycznyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053491609A1FD593464A7152 /* Pods_Odtwarzacz_MuzycznyTests.framework */; };
 /* End PBXBuildFile section */
@@ -34,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		053491609A1FD593464A7152 /* Pods_Odtwarzacz_MuzycznyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Odtwarzacz_MuzycznyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B12F6C53D715A1DB9AE842 /* Pods_Odtwarzacz_MuzycznyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Odtwarzacz_MuzycznyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7CE1AF2393FE6D00DDA05F /* Odtwarzacz Muzyczny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Odtwarzacz Muzyczny.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7CE1B22393FE6D00DDA05F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B7CE1B42393FE6D00DDA05F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,11 +87,46 @@
 		2B7CE1DA2394012200DDA05F /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
 		2B7CE1DB2394012200DDA05F /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
 		2B7CE1DE2394018B00DDA05F /* Odtwarzacz Muzyczny-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Odtwarzacz Muzyczny-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B7CE1E52394045600DDA05F /* NewRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRepo.swift; sourceTree = "<group>"; };
+		2B7CE1E62394045600DDA05F /* MusicProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicProviding.swift; sourceTree = "<group>"; };
+		2B7CE1E72394045600DDA05F /* SpotifyProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyProvider.swift; sourceTree = "<group>"; };
+		2B7CE1E82394045600DDA05F /* iTunesProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesProvider.swift; sourceTree = "<group>"; };
+		2B7CE1EA2394045600DDA05F /* SpotifyManagerC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyManagerC.swift; sourceTree = "<group>"; };
+		2B7CE1ED2394045600DDA05F /* RealmPlaylistTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmPlaylistTrack.swift; sourceTree = "<group>"; };
+		2B7CE1EE2394045600DDA05F /* RealmPlaylistTrack+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RealmPlaylistTrack+.swift"; sourceTree = "<group>"; };
+		2B7CE1EF2394045600DDA05F /* RealmPlaylist+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RealmPlaylist+.swift"; sourceTree = "<group>"; };
+		2B7CE1F02394045600DDA05F /* RealmPlaylistFolder+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RealmPlaylistFolder+.swift"; sourceTree = "<group>"; };
+		2B7CE1F12394045600DDA05F /* RealmPlaylist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmPlaylist.swift; sourceTree = "<group>"; };
+		2B7CE1F22394045600DDA05F /* RealmPlaylistFolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmPlaylistFolder.swift; sourceTree = "<group>"; };
+		2B7CE1F42394045600DDA05F /* RealmTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmTrack.swift; sourceTree = "<group>"; };
+		2B7CE1F52394045600DDA05F /* RealmTrack+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RealmTrack+Convenience.swift"; sourceTree = "<group>"; };
+		2B7CE1F62394045600DDA05F /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		2B7CE1F72394045600DDA05F /* MyRealmObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRealmObject.swift; sourceTree = "<group>"; };
+		2B7CE1F92394045600DDA05F /* RealmAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmAlbum.swift; sourceTree = "<group>"; };
+		2B7CE1FA2394045600DDA05F /* RealmAlbum+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RealmAlbum+Convenience.swift"; sourceTree = "<group>"; };
+		2B7CE1FC2394045600DDA05F /* RealmArtist+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RealmArtist+Convenience.swift"; sourceTree = "<group>"; };
+		2B7CE1FD2394045600DDA05F /* RealmArtist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmArtist.swift; sourceTree = "<group>"; };
+		2B7CE1FE2394045600DDA05F /* SpotifyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyManager.swift; sourceTree = "<group>"; };
+		2B7CE1FF2394045600DDA05F /* SpotifyConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyConstants.swift; sourceTree = "<group>"; };
+		2B7CE2002394045600DDA05F /* SpotifyValues.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SpotifyValues.plist; sourceTree = "<group>"; };
+		2B7CE20B2394045700DDA05F /* initPlum.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = initPlum.m4a; sourceTree = "<group>"; };
+		2B7CE20C2394045700DDA05F /* iTunesPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesPlayer.swift; sourceTree = "<group>"; };
+		2B7CE20D2394045700DDA05F /* AWRemoteControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWRemoteControlManager.swift; sourceTree = "<group>"; };
+		2B7CE20E2394045700DDA05F /* SpotifyPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyPlayer.swift; sourceTree = "<group>"; };
+		2B7CE20F2394045700DDA05F /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		2B7CE2102394045700DDA05F /* AWPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWPlayer.swift; sourceTree = "<group>"; };
+		2B7CE2112394045700DDA05F /* AVAudioSessionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAudioSessionHelper.swift; sourceTree = "<group>"; };
+		2B7CE2122394045700DDA05F /* AWPlayer+QueuePersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AWPlayer+QueuePersistence.swift"; sourceTree = "<group>"; };
+		2B7CE2132394045700DDA05F /* AWPlayerTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWPlayerTypes.swift; sourceTree = "<group>"; };
+		2B7CE2142394045700DDA05F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2B7CE2152394045700DDA05F /* AWPlayer+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AWPlayer+.swift"; sourceTree = "<group>"; };
+		2B7CE2162394045700DDA05F /* AWNowPlayingInfoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWNowPlayingInfoManager.swift; sourceTree = "<group>"; };
 		32690AD81E07BBB1A187A90B /* Pods_Odtwarzacz_Muzyczny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Odtwarzacz_Muzyczny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		416F9CC0B9FEE9550E52F56A /* Pods-Odtwarzacz MuzycznyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odtwarzacz MuzycznyTests.release.xcconfig"; path = "Target Support Files/Pods-Odtwarzacz MuzycznyTests/Pods-Odtwarzacz MuzycznyTests.release.xcconfig"; sourceTree = "<group>"; };
 		7373623DB451F58F64931C45 /* Pods-Odtwarzacz Muzyczny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odtwarzacz Muzyczny.release.xcconfig"; path = "Target Support Files/Pods-Odtwarzacz Muzyczny/Pods-Odtwarzacz Muzyczny.release.xcconfig"; sourceTree = "<group>"; };
 		B2AE38671E995C017D2C0C32 /* Pods-Odtwarzacz Muzyczny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odtwarzacz Muzyczny.debug.xcconfig"; path = "Target Support Files/Pods-Odtwarzacz Muzyczny/Pods-Odtwarzacz Muzyczny.debug.xcconfig"; sourceTree = "<group>"; };
 		BAE820A51470B1E42F71E776 /* Pods-Odtwarzacz MuzycznyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odtwarzacz MuzycznyTests.debug.xcconfig"; path = "Target Support Files/Pods-Odtwarzacz MuzycznyTests/Pods-Odtwarzacz MuzycznyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F60E032949881DE56D143DF0 /* Pods_Odtwarzacz_Muzyczny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Odtwarzacz_Muzyczny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +139,7 @@
 				2B7CE1DC2394012200DDA05F /* SpotifyAudioPlayback.framework in Frameworks */,
 				2B7CE1D82394010B00DDA05F /* SpotifyAuthentication.framework in Frameworks */,
 				2B7CE1D72394010B00DDA05F /* SpotifyAudioPlayback.framework in Frameworks */,
+				1989CAB6BB07A1B5A6C4235D /* Pods_Odtwarzacz_Muzyczny.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F642B56B6C9F50925502A7FE /* Pods_Odtwarzacz_MuzycznyTests.framework in Frameworks */,
+				1CFB1CBEF6059244C60779E3 /* Pods_Odtwarzacz_MuzycznyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +180,7 @@
 		2B7CE1B12393FE6D00DDA05F /* Odtwarzacz Muzyczny */ = {
 			isa = PBXGroup;
 			children = (
+				2B7CE2422394045B00DDA05F /* Model */,
 				2B7CE1B22393FE6D00DDA05F /* AppDelegate.swift */,
 				2B7CE1B42393FE6D00DDA05F /* SceneDelegate.swift */,
 				2B7CE1B62393FE6D00DDA05F /* ViewController.swift */,
@@ -132,6 +207,8 @@
 			children = (
 				2B7CE1D52394010B00DDA05F /* SpotifyAudioPlayback.framework */,
 				2B7CE1D62394010B00DDA05F /* SpotifyAuthentication.framework */,
+				F60E032949881DE56D143DF0 /* Pods_Odtwarzacz_Muzyczny.framework */,
+				28B12F6C53D715A1DB9AE842 /* Pods_Odtwarzacz_MuzycznyTests.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -143,6 +220,111 @@
 				2B7CE1DB2394012200DDA05F /* SpotifyAuthentication.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B7CE1E22394045600DDA05F /* AWMusicRepo */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CE1E52394045600DDA05F /* NewRepo.swift */,
+				2B7CE1E62394045600DDA05F /* MusicProviding.swift */,
+				2B7CE1E72394045600DDA05F /* SpotifyProvider.swift */,
+				2B7CE1E82394045600DDA05F /* iTunesProvider.swift */,
+			);
+			path = AWMusicRepo;
+			sourceTree = "<group>";
+		};
+		2B7CE1E92394045600DDA05F /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CE1EA2394045600DDA05F /* SpotifyManagerC.swift */,
+				2B7CE1EB2394045600DDA05F /* RealmObjects */,
+				2B7CE1FE2394045600DDA05F /* SpotifyManager.swift */,
+				2B7CE1FF2394045600DDA05F /* SpotifyConstants.swift */,
+				2B7CE2002394045600DDA05F /* SpotifyValues.plist */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		2B7CE1EB2394045600DDA05F /* RealmObjects */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CE1EC2394045600DDA05F /* Playlist */,
+				2B7CE1F32394045600DDA05F /* Track */,
+				2B7CE1F62394045600DDA05F /* RealmManager.swift */,
+				2B7CE1F72394045600DDA05F /* MyRealmObject.swift */,
+				2B7CE1F82394045600DDA05F /* Album */,
+				2B7CE1FB2394045600DDA05F /* Artist */,
+			);
+			path = RealmObjects;
+			sourceTree = "<group>";
+		};
+		2B7CE1EC2394045600DDA05F /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CE1ED2394045600DDA05F /* RealmPlaylistTrack.swift */,
+				2B7CE1EE2394045600DDA05F /* RealmPlaylistTrack+.swift */,
+				2B7CE1EF2394045600DDA05F /* RealmPlaylist+.swift */,
+				2B7CE1F02394045600DDA05F /* RealmPlaylistFolder+.swift */,
+				2B7CE1F12394045600DDA05F /* RealmPlaylist.swift */,
+				2B7CE1F22394045600DDA05F /* RealmPlaylistFolder.swift */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
+		2B7CE1F32394045600DDA05F /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CE1F42394045600DDA05F /* RealmTrack.swift */,
+				2B7CE1F52394045600DDA05F /* RealmTrack+Convenience.swift */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		2B7CE1F82394045600DDA05F /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CE1F92394045600DDA05F /* RealmAlbum.swift */,
+				2B7CE1FA2394045600DDA05F /* RealmAlbum+Convenience.swift */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		2B7CE1FB2394045600DDA05F /* Artist */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CE1FC2394045600DDA05F /* RealmArtist+Convenience.swift */,
+				2B7CE1FD2394045600DDA05F /* RealmArtist.swift */,
+			);
+			path = Artist;
+			sourceTree = "<group>";
+		};
+		2B7CE20A2394045700DDA05F /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CE20B2394045700DDA05F /* initPlum.m4a */,
+				2B7CE20C2394045700DDA05F /* iTunesPlayer.swift */,
+				2B7CE20D2394045700DDA05F /* AWRemoteControlManager.swift */,
+				2B7CE20E2394045700DDA05F /* SpotifyPlayer.swift */,
+				2B7CE20F2394045700DDA05F /* Helpers.swift */,
+				2B7CE2102394045700DDA05F /* AWPlayer.swift */,
+				2B7CE2112394045700DDA05F /* AVAudioSessionHelper.swift */,
+				2B7CE2122394045700DDA05F /* AWPlayer+QueuePersistence.swift */,
+				2B7CE2132394045700DDA05F /* AWPlayerTypes.swift */,
+				2B7CE2142394045700DDA05F /* Player.swift */,
+				2B7CE2152394045700DDA05F /* AWPlayer+.swift */,
+				2B7CE2162394045700DDA05F /* AWNowPlayingInfoManager.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		2B7CE2422394045B00DDA05F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CE1E22394045600DDA05F /* AWMusicRepo */,
+				2B7CE20A2394045700DDA05F /* Player */,
+				2B7CE1E92394045600DDA05F /* Spotify */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C650264F81B4F073A0835138 /* Frameworks */ = {
@@ -253,6 +435,8 @@
 				2B7CE1BF2393FE6E00DDA05F /* LaunchScreen.storyboard in Resources */,
 				2B7CE1BC2393FE6E00DDA05F /* Assets.xcassets in Resources */,
 				2B7CE1BA2393FE6D00DDA05F /* Main.storyboard in Resources */,
+				2B7CE2362394045700DDA05F /* initPlum.m4a in Resources */,
+				2B7CE22D2394045700DDA05F /* SpotifyValues.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,9 +518,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7CE22B2394045700DDA05F /* SpotifyManager.swift in Sources */,
+				2B7CE2382394045700DDA05F /* AWRemoteControlManager.swift in Sources */,
+				2B7CE21C2394045700DDA05F /* SpotifyManagerC.swift in Sources */,
+				2B7CE2272394045700DDA05F /* RealmAlbum.swift in Sources */,
+				2B7CE22C2394045700DDA05F /* SpotifyConstants.swift in Sources */,
+				2B7CE2242394045700DDA05F /* RealmTrack+Convenience.swift in Sources */,
+				2B7CE2232394045700DDA05F /* RealmTrack.swift in Sources */,
 				2B7CE1B72393FE6D00DDA05F /* ViewController.swift in Sources */,
+				2B7CE2402394045700DDA05F /* AWPlayer+.swift in Sources */,
+				2B7CE2202394045700DDA05F /* RealmPlaylistFolder+.swift in Sources */,
+				2B7CE2262394045700DDA05F /* MyRealmObject.swift in Sources */,
+				2B7CE2252394045700DDA05F /* RealmManager.swift in Sources */,
+				2B7CE21E2394045700DDA05F /* RealmPlaylistTrack+.swift in Sources */,
+				2B7CE2182394045700DDA05F /* NewRepo.swift in Sources */,
+				2B7CE21D2394045700DDA05F /* RealmPlaylistTrack.swift in Sources */,
+				2B7CE2222394045700DDA05F /* RealmPlaylistFolder.swift in Sources */,
+				2B7CE21F2394045700DDA05F /* RealmPlaylist+.swift in Sources */,
+				2B7CE21B2394045700DDA05F /* iTunesProvider.swift in Sources */,
+				2B7CE2282394045700DDA05F /* RealmAlbum+Convenience.swift in Sources */,
+				2B7CE2192394045700DDA05F /* MusicProviding.swift in Sources */,
+				2B7CE2292394045700DDA05F /* RealmArtist+Convenience.swift in Sources */,
+				2B7CE2392394045700DDA05F /* SpotifyPlayer.swift in Sources */,
+				2B7CE23B2394045700DDA05F /* AWPlayer.swift in Sources */,
 				2B7CE1B32393FE6D00DDA05F /* AppDelegate.swift in Sources */,
+				2B7CE23C2394045700DDA05F /* AVAudioSessionHelper.swift in Sources */,
+				2B7CE23F2394045700DDA05F /* Player.swift in Sources */,
+				2B7CE21A2394045700DDA05F /* SpotifyProvider.swift in Sources */,
+				2B7CE2212394045700DDA05F /* RealmPlaylist.swift in Sources */,
+				2B7CE2412394045700DDA05F /* AWNowPlayingInfoManager.swift in Sources */,
+				2B7CE23E2394045700DDA05F /* AWPlayerTypes.swift in Sources */,
 				2B7CE1B52393FE6D00DDA05F /* SceneDelegate.swift in Sources */,
+				2B7CE23A2394045700DDA05F /* Helpers.swift in Sources */,
+				2B7CE2372394045700DDA05F /* iTunesPlayer.swift in Sources */,
+				2B7CE22A2394045700DDA05F /* RealmArtist.swift in Sources */,
+				2B7CE23D2394045700DDA05F /* AWPlayer+QueuePersistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

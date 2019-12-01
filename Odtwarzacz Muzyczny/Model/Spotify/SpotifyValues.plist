@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tokenSwapUrl</key>
+	<string>https://plum-spotify-token-swap.herokuapp.com/api/token&quot;</string>
+	<key>redirectUrl</key>
+	<string>plum://</string>
+	<key>clientID</key>
+	<string>629c6851c5504f0ba8120ed094511109</string>
+	<key>sessionDefaultsKey</key>
+	<string>spotifySessionUserDefaults</string>
+	<key>userDefaultsKeyy</key>
+	<string>spotifyUsername</string>
+	<key>tokenRefreshUrl</key>
+	<string>https://plum-spotify-token-swap.herokuapp.com/api/refresh_token</string>
+</dict>
+</plist>

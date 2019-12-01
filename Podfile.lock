@@ -6,10 +6,16 @@ PODS:
   - AlamoRecord (1.2.2):
     - AlamofireObjectMapper (~> 5.1)
   - ObjectMapper (3.5.1)
+  - Realm (4.1.1):
+    - Realm/Headers (= 4.1.1)
+  - Realm/Headers (4.1.1)
+  - RealmSwift (4.1.1):
+    - Realm (= 4.1.1)
   - Spartan (1.2.1):
     - AlamoRecord (~> 1.2.0)
 
 DEPENDENCIES:
+  - RealmSwift
   - Spartan
 
 SPEC REPOS:
@@ -18,6 +24,8 @@ SPEC REPOS:
     - AlamofireObjectMapper
     - AlamoRecord
     - ObjectMapper
+    - Realm
+    - RealmSwift
     - Spartan
 
 SPEC CHECKSUMS:
@@ -25,8 +33,10 @@ SPEC CHECKSUMS:
   AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
   AlamoRecord: 5850c563a811fdca40cd361b1b27622004bccef3
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  Realm: 25f0a8244cbb1c2271c922963ea8666fc2d8104d
+  RealmSwift: 9e2657b33764f80e4a4dffd6d440e24715782052
   Spartan: 2fb99ad25f2b0e8182799f251c800091977f0a40
 
-PODFILE CHECKSUM: d9bd806fe06d3667555329c8f7df4e4f4edf456a
+PODFILE CHECKSUM: 641cfee75d0eeabc118bf39befc1b2c134f8bdf7
 
 COCOAPODS: 1.7.1

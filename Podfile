@@ -6,6 +6,7 @@ target 'Odtwarzacz Muzyczny' do
   use_frameworks!
 
   pod 'Spartan'
+  pod 'RealmSwift'
 
   # Pods for Odtwarzacz Muzyczny
 
