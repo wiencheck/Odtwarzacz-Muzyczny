@@ -1,0 +1,6 @@
+framework module Pods_Odtwarzacz_Muzyczny {
+  umbrella header "Pods-Odtwarzacz Muzyczny-umbrella.h"
+
+  export *
+  module * { export * }
+}

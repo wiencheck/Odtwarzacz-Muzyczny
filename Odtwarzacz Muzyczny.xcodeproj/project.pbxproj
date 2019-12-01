@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,12 @@
 		2B7CE1BC2393FE6E00DDA05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7CE1BB2393FE6E00DDA05F /* Assets.xcassets */; };
 		2B7CE1BF2393FE6E00DDA05F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7CE1BD2393FE6E00DDA05F /* LaunchScreen.storyboard */; };
 		2B7CE1CA2393FE6E00DDA05F /* Odtwarzacz_MuzycznyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CE1C92393FE6E00DDA05F /* Odtwarzacz_MuzycznyTests.swift */; };
+		2B7CE1D72394010B00DDA05F /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7CE1D52394010B00DDA05F /* SpotifyAudioPlayback.framework */; };
+		2B7CE1D82394010B00DDA05F /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7CE1D62394010B00DDA05F /* SpotifyAuthentication.framework */; };
+		2B7CE1DC2394012200DDA05F /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7CE1DA2394012200DDA05F /* SpotifyAudioPlayback.framework */; };
+		2B7CE1DD2394012200DDA05F /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7CE1DB2394012200DDA05F /* SpotifyAuthentication.framework */; };
+		97CECA18145143BB447D7E54 /* Pods_Odtwarzacz_Muzyczny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32690AD81E07BBB1A187A90B /* Pods_Odtwarzacz_Muzyczny.framework */; };
+		F642B56B6C9F50925502A7FE /* Pods_Odtwarzacz_MuzycznyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053491609A1FD593464A7152 /* Pods_Odtwarzacz_MuzycznyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		053491609A1FD593464A7152 /* Pods_Odtwarzacz_MuzycznyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Odtwarzacz_MuzycznyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7CE1AF2393FE6D00DDA05F /* Odtwarzacz Muzyczny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Odtwarzacz Muzyczny.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7CE1B22393FE6D00DDA05F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B7CE1B42393FE6D00DDA05F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +45,16 @@
 		2B7CE1C52393FE6E00DDA05F /* Odtwarzacz MuzycznyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Odtwarzacz MuzycznyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7CE1C92393FE6E00DDA05F /* Odtwarzacz_MuzycznyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Odtwarzacz_MuzycznyTests.swift; sourceTree = "<group>"; };
 		2B7CE1CB2393FE6E00DDA05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7CE1D52394010B00DDA05F /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		2B7CE1D62394010B00DDA05F /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		2B7CE1DA2394012200DDA05F /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		2B7CE1DB2394012200DDA05F /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		2B7CE1DE2394018B00DDA05F /* Odtwarzacz Muzyczny-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Odtwarzacz Muzyczny-Bridging-Header.h"; sourceTree = "<group>"; };
+		32690AD81E07BBB1A187A90B /* Pods_Odtwarzacz_Muzyczny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Odtwarzacz_Muzyczny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		416F9CC0B9FEE9550E52F56A /* Pods-Odtwarzacz MuzycznyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odtwarzacz MuzycznyTests.release.xcconfig"; path = "Target Support Files/Pods-Odtwarzacz MuzycznyTests/Pods-Odtwarzacz MuzycznyTests.release.xcconfig"; sourceTree = "<group>"; };
+		7373623DB451F58F64931C45 /* Pods-Odtwarzacz Muzyczny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odtwarzacz Muzyczny.release.xcconfig"; path = "Target Support Files/Pods-Odtwarzacz Muzyczny/Pods-Odtwarzacz Muzyczny.release.xcconfig"; sourceTree = "<group>"; };
+		B2AE38671E995C017D2C0C32 /* Pods-Odtwarzacz Muzyczny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odtwarzacz Muzyczny.debug.xcconfig"; path = "Target Support Files/Pods-Odtwarzacz Muzyczny/Pods-Odtwarzacz Muzyczny.debug.xcconfig"; sourceTree = "<group>"; };
+		BAE820A51470B1E42F71E776 /* Pods-Odtwarzacz MuzycznyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odtwarzacz MuzycznyTests.debug.xcconfig"; path = "Target Support Files/Pods-Odtwarzacz MuzycznyTests/Pods-Odtwarzacz MuzycznyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +62,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7CE1DD2394012200DDA05F /* SpotifyAuthentication.framework in Frameworks */,
+				97CECA18145143BB447D7E54 /* Pods_Odtwarzacz_Muzyczny.framework in Frameworks */,
+				2B7CE1DC2394012200DDA05F /* SpotifyAudioPlayback.framework in Frameworks */,
+				2B7CE1D82394010B00DDA05F /* SpotifyAuthentication.framework in Frameworks */,
+				2B7CE1D72394010B00DDA05F /* SpotifyAudioPlayback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F642B56B6C9F50925502A7FE /* Pods_Odtwarzacz_MuzycznyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +84,13 @@
 		2B7CE1A62393FE6D00DDA05F = {
 			isa = PBXGroup;
 			children = (
+				2B7CE1D42394010B00DDA05F /* Frameworks */,
 				2B7CE1B12393FE6D00DDA05F /* Odtwarzacz Muzyczny */,
 				2B7CE1C82393FE6E00DDA05F /* Odtwarzacz MuzycznyTests */,
 				2B7CE1B02393FE6D00DDA05F /* Products */,
+				2B7CE1D92394012200DDA05F /* Frameworks */,
+				C7044A45B00F2D9ACAC11E5A /* Pods */,
+				C650264F81B4F073A0835138 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +113,7 @@
 				2B7CE1BB2393FE6E00DDA05F /* Assets.xcassets */,
 				2B7CE1BD2393FE6E00DDA05F /* LaunchScreen.storyboard */,
 				2B7CE1C02393FE6E00DDA05F /* Info.plist */,
+				2B7CE1DE2394018B00DDA05F /* Odtwarzacz Muzyczny-Bridging-Header.h */,
 			);
 			path = "Odtwarzacz Muzyczny";
 			sourceTree = "<group>";
@@ -99,6 +127,44 @@
 			path = "Odtwarzacz MuzycznyTests";
 			sourceTree = "<group>";
 		};
+		2B7CE1D42394010B00DDA05F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CE1D52394010B00DDA05F /* SpotifyAudioPlayback.framework */,
+				2B7CE1D62394010B00DDA05F /* SpotifyAuthentication.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B7CE1D92394012200DDA05F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B7CE1DA2394012200DDA05F /* SpotifyAudioPlayback.framework */,
+				2B7CE1DB2394012200DDA05F /* SpotifyAuthentication.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		C650264F81B4F073A0835138 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32690AD81E07BBB1A187A90B /* Pods_Odtwarzacz_Muzyczny.framework */,
+				053491609A1FD593464A7152 /* Pods_Odtwarzacz_MuzycznyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7044A45B00F2D9ACAC11E5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2AE38671E995C017D2C0C32 /* Pods-Odtwarzacz Muzyczny.debug.xcconfig */,
+				7373623DB451F58F64931C45 /* Pods-Odtwarzacz Muzyczny.release.xcconfig */,
+				BAE820A51470B1E42F71E776 /* Pods-Odtwarzacz MuzycznyTests.debug.xcconfig */,
+				416F9CC0B9FEE9550E52F56A /* Pods-Odtwarzacz MuzycznyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B7CE1CE2393FE6E00DDA05F /* Build configuration list for PBXNativeTarget "Odtwarzacz Muzyczny" */;
 			buildPhases = (
+				F79891B3A6A35FB513D8A920 /* [CP] Check Pods Manifest.lock */,
 				2B7CE1AB2393FE6D00DDA05F /* Sources */,
 				2B7CE1AC2393FE6D00DDA05F /* Frameworks */,
 				2B7CE1AD2393FE6D00DDA05F /* Resources */,
+				C90EAB7B93EBAE05D99CBD1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B7CE1D12393FE6E00DDA05F /* Build configuration list for PBXNativeTarget "Odtwarzacz MuzycznyTests" */;
 			buildPhases = (
+				57F2391E22B1B9726A00CA12 /* [CP] Check Pods Manifest.lock */,
 				2B7CE1C12393FE6E00DDA05F /* Sources */,
 				2B7CE1C22393FE6E00DDA05F /* Frameworks */,
 				2B7CE1C32393FE6E00DDA05F /* Resources */,
@@ -149,6 +218,7 @@
 				TargetAttributes = {
 					2B7CE1AE2393FE6D00DDA05F = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					2B7CE1C42393FE6E00DDA05F = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -194,6 +264,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57F2391E22B1B9726A00CA12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Odtwarzacz MuzycznyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C90EAB7B93EBAE05D99CBD1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Odtwarzacz Muzyczny/Pods-Odtwarzacz Muzyczny-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Odtwarzacz Muzyczny/Pods-Odtwarzacz Muzyczny-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Odtwarzacz Muzyczny/Pods-Odtwarzacz Muzyczny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F79891B3A6A35FB513D8A920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Odtwarzacz Muzyczny-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B7CE1AB2393FE6D00DDA05F /* Sources */ = {
@@ -360,17 +494,39 @@
 		};
 		2B7CE1CF2393FE6E00DDA05F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2AE38671E995C017D2C0C32 /* Pods-Odtwarzacz Muzyczny.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5346R7RC8E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "Odtwarzacz Muzyczny/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"AlamoRecord\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireObjectMapper\"",
+					"-framework",
+					"\"ObjectMapper\"",
+					"-framework",
+					"\"Spartan\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adw.Odtwarzacz-Muzyczny";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Odtwarzacz Muzyczny/Odtwarzacz Muzyczny-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -378,17 +534,38 @@
 		};
 		2B7CE1D02393FE6E00DDA05F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7373623DB451F58F64931C45 /* Pods-Odtwarzacz Muzyczny.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5346R7RC8E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "Odtwarzacz Muzyczny/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"AlamoRecord\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireObjectMapper\"",
+					"-framework",
+					"\"ObjectMapper\"",
+					"-framework",
+					"\"Spartan\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.adw.Odtwarzacz-Muzyczny";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Odtwarzacz Muzyczny/Odtwarzacz Muzyczny-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -396,6 +573,7 @@
 		};
 		2B7CE1D22393FE6E00DDA05F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE820A51470B1E42F71E776 /* Pods-Odtwarzacz MuzycznyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +596,7 @@
 		};
 		2B7CE1D32393FE6E00DDA05F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416F9CC0B9FEE9550E52F56A /* Pods-Odtwarzacz MuzycznyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
