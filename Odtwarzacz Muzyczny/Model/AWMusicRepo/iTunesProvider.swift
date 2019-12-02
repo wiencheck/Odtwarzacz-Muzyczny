@@ -293,25 +293,6 @@ class iTunesProvider: MusicProviding {
     
 }
 
-enum iTunesManager {
-    static var permissionChangedHandler: ((Bool) -> Void)?
-    
-    static func requestPermission() {
-        guard MPMediaLibrary.authorizationStatus() == .authorized else {
-            MPMediaLibrary.requestAuthorization { status in
-                let success = status == .authorized
-                NotificationCenter.default.post(name: iTunesManager.MediaLibraryPermissionStatusChangedNotification, object: success)
-                permissionChangedHandler?(success)
-            }
-            return
-        }
-        NotificationCenter.default.post(name: iTunesManager.MediaLibraryPermissionStatusChangedNotification, object: true)
-        permissionChangedHandler?(true)
-    }
-    
-    static let MediaLibraryPermissionStatusChangedNotification = Notification.Name("MediaLibraryPermissionStatusChangedNotification")
-}
-
 fileprivate extension MPMediaQuery {
     /// Returns filtered query, without cloud and Apple Music content.
     var filtered: MPMediaQuery {

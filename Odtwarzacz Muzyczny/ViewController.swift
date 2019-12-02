@@ -8,13 +8,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class InitialViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        guard let login = storyboard?.instantiateViewController(identifier: "login") as? LoginViewController else { return }
+        login.delegate = self
+        present(login, animated: true, completion: nil)
+    }
 
 
+}
+
+extension InitialViewController: LoginViewControllerDelegate {
+    func LoginViewController(didFinishLoggingIn controller: LoginViewController) {
+        controller.dismiss(animated: true) {
+            self.performSegue(withIdentifier: "success", sender: nil)
+        }
+    }
 }
 

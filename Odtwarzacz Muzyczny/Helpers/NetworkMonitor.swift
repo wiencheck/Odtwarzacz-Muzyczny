@@ -60,12 +60,15 @@ class NetworkMonitor {
                 self.interfaceType = .other
             }
         }
-        let queue = DispatchQueue.global(qos: .background)
-        monitor.start(queue: queue)
     }
     
     deinit {
         monitor.cancel()
+    }
+    
+    func start() {
+        let queue = DispatchQueue.global(qos: .background)
+        monitor.start(queue: queue)
     }
     
     // TODO dodać .none

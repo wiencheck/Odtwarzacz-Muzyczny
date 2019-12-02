@@ -46,7 +46,7 @@ extension SimplifiedPlaylist: AWPlaylist {
     }
     
     var attribute: PlaylistAttribute {
-        if let user = user, let savedUser = SpotifyManager.shared.user,
+        if let user = user, let savedUser = SpotifyManager.user,
             user == savedUser {
             return .private
         }
@@ -64,7 +64,7 @@ extension SimplifiedPlaylist: AWPlaylist {
     }
     
     func add(tracks: [AWTrack], completion: ((Error?) -> Void)?) {
-        guard let user = SpotifyManager.shared.user else {
+        guard let user = SpotifyManager.user else {
             
             return
         }

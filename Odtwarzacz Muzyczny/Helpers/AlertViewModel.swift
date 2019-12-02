@@ -20,4 +20,6 @@ struct AlertViewModel {
         self.actions = actions
         self.style = style
     }
+    
+    
 }

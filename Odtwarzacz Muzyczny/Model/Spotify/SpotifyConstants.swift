@@ -29,10 +29,10 @@ enum SpotifyConstants {
 //    static var usernameDefaultsKey: String {
 //        return PlistReader.property(from: plistName, key: "userDefaultsKey") as! String
 //    }
-    static let clientID = "629c6851c5504f0ba8120ed094511109"
+    static let clientID = "2f7173acc66d4417801bcefada423e84"
     static let tokenSwapURL = URL(string: "https://plum-spotify-token-swap.herokuapp.com/api/token")!
     static let tokenRefreshURL = URL(string: "https://plum-spotify-token-swap.herokuapp.com/api/refresh_token")!
-    static let redirectURL = URL(string: "plum://")!
+    static let redirectURL = URL(string: "odtw://")!
     static let sessionUserDefaultsKey = "spotifySessionUserDefaults"
     static let usernameDefaultsKey = "spotifyUsername"
     

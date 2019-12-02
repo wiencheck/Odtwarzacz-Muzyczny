@@ -40,3 +40,14 @@ extension UIViewController {
         }
     }
 }
+
+extension AlertViewModel {
+    init(message: AWMessage) {
+        self.title = message.title
+        self.message = message.message
+        self.style = .alert
+        self.actions = [
+            UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+        ]
+    }
+}

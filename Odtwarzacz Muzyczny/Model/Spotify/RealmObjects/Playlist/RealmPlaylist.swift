@@ -110,7 +110,7 @@ import Spartan
     let imagesURLs = List<String>()
     
     func add(tracks: [AWTrack], completion: ((Error?) -> Void)?) {
-        guard let user = SpotifyManager.shared.user else {
+        guard let user = SpotifyManager.user else {
             
             return
         }
