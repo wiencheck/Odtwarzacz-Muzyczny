@@ -16,7 +16,7 @@ final class LoginViewModel {
     
     weak var delegate: LoginViewModelDelegate?
     
-    private var desiredSources: [AWMediaSource] = [.iTunes]
+    private var desiredSources: [AWMediaSource] = [.iTunes, .spotify]
     
     private var finishedSources = Set<AWMediaSource>() {
         didSet {

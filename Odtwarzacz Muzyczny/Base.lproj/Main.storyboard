@@ -113,6 +113,22 @@
             </objects>
             <point key="canvasLocation" x="3708.6956521739135" y="454.6875"/>
         </scene>
+        <!--Dummy-->
+        <scene sceneID="L02-dw-0ie">
+            <objects>
+                <viewController title="Dummy" id="Qnt-Yt-kc9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M4O-Uu-piO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="zcF-kt-lfV"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Player" id="kLo-bk-kck"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GEi-Se-9qP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2799" y="1146"/>
+        </scene>
         <!--Songs View Controller-->
         <scene sceneID="eoB-NE-vRX">
             <objects>
@@ -294,10 +310,10 @@
             </objects>
             <point key="canvasLocation" x="3708.6956521739135" y="-194.19642857142856"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="cWd-p9-Ko8">
             <objects>
-                <tabBarController id="hDw-tl-bwn" sceneMemberID="viewController">
+                <tabBarController id="hDw-tl-bwn" customClass="MainTabBarController" customModule="Odtwarzacz_Muzyczny" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="jve-9w-9iM"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nY2-cc-NRw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -307,6 +323,7 @@
                     <connections>
                         <segue destination="jfR-C6-aI2" kind="relationship" relationship="viewControllers" id="aOD-xJ-Bqp"/>
                         <segue destination="dkg-vQ-Ytd" kind="relationship" relationship="viewControllers" id="In1-7e-n7l"/>
+                        <segue destination="Qnt-Yt-kc9" kind="relationship" relationship="viewControllers" id="LKJ-yz-ZNl"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RWQ-cO-038" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

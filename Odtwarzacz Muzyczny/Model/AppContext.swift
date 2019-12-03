@@ -13,11 +13,9 @@ class AppContext {
     
     let player: AWPlayer
     let newRepo: NewRepo
-    var managers: [SourceManager]
         
     private init() {
-        player = AWPlayer()
+        player = AWPlayer(players: [.iTunes, .spotify])
         newRepo = NewRepo()
-        managers = [iTunesManager()]
     }
 }

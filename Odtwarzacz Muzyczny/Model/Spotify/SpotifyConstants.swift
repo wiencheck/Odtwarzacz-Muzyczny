@@ -32,7 +32,7 @@ enum SpotifyConstants {
     static let clientID = "2f7173acc66d4417801bcefada423e84"
     static let tokenSwapURL = URL(string: "https://plum-spotify-token-swap.herokuapp.com/api/token")!
     static let tokenRefreshURL = URL(string: "https://plum-spotify-token-swap.herokuapp.com/api/refresh_token")!
-    static let redirectURL = URL(string: "odtw://")!
+    static let redirectURL = URL(string: "odtwspotify://")!
     static let sessionUserDefaultsKey = "spotifySessionUserDefaults"
     static let usernameDefaultsKey = "spotifyUsername"
     

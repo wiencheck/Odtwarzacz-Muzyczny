@@ -59,6 +59,18 @@ final class AWPlayer {
         //setCurrentAudioRoute()
     }
     
+    init(players: [AWMediaSource]) {
+        remoteCommandCenterManager = AWRemoteControlManager(delegate: self)
+        
+        nowPlayingInfoManager = AWNowPlayingInfoManager(delegate: self)
+        
+        audioSessionHelper = AVAudioSessionHelper(delegate: self)
+        
+        for p in players {
+            getPlayer(source: p)
+        }
+    }
+    
     @discardableResult
     private func getPlayer(source: AWMediaSource) -> Player {
         if let player = players[source] {

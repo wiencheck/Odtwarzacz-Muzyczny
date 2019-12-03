@@ -52,7 +52,7 @@ class SongsViewModel {
     }
     
     func fetchTracks() {
-        context.newRepo.getAllSongs(from: [.iTunes]) { [weak self] result in
+        context.newRepo.getAllSongs(from: [.iTunes, .spotify]) { [weak self] result in
             switch result {
             case .success(let tracks):
                 self?.updateResults(with: tracks)
