@@ -129,7 +129,8 @@ class SpotifyManager: SourceManager {
              Otherwise renew
              */
             guard session.isValid() else {
-                renewSession(session)
+                SpotifyManager.authorize()
+                //renewSession(session)
                 return
             }
             
@@ -216,6 +217,15 @@ class SpotifyManager: SourceManager {
                     }
                 }
             }
+    
+    class func authorize() {
+        if SPTAuth.supportsApplicationAuthentication() {
+            UIApplication.shared.open(SPTAuth.defaultInstance().spotifyAppAuthenticationURL(), options: [:], completionHandler: nil)
+        } else {
+            let url = SPTAuth.defaultInstance().spotifyWebAuthenticationURL()
+            UIApplication.openURL(url)
+        }
+    }
     
     public class func openSpotifyApplication(with url: URL) {
         guard UIApplication.shared.canOpenURL(url) else { return }

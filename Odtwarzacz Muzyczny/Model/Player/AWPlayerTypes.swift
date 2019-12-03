@@ -28,10 +28,18 @@ public enum PlaybackState {
     }
 }
 
-public enum RepeatMode: Int, Codable {
+public enum RepeatMode: Int, Codable, CustomStringConvertible {
     case none
     case context
     case one
+    
+    public var description: String {
+        switch self {
+        case .none: return "None"
+        case .context: return "Context"
+        case .one: return "One"
+        }
+    }
 }
 
 public enum AudioOutputRouteType: String {
